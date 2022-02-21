@@ -7,6 +7,13 @@ SELECT location,date, total_cases, new_cases, total_deaths, population
 FROM covid_death 
 order by 1,2;
 
+-- Smoker and death rate?
+SELECT location, female_smokers
+FROM covid_vaccinations
+WHERE female_smokers IS NOT NULL
+GROUP BY 1,2
+ORDER BY 2 DESC;
+
 -- Looking at Death Rate of dying from covid
 SELECT location,date, total_cases, total_deaths, (total_deaths/total_cases::float)*100 as DeathPercentage
 FROM covid_death
