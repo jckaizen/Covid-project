@@ -4,6 +4,7 @@
 
 A project involving using PostgreSQL to make queries against current(as of Feb 6, 2022) Covid-19 data which is then used in Tableau to make visulizations to put into a dashboard.
 
+
 Blogs on this project:
 - [Part 1](https://julykaizen.hashnode.dev/covid-project-postgresql-and-psql-part-12)
 - [Part 2](https://julykaizen.hashnode.dev/covid-project-tableau-and-visualizations-part-22)
